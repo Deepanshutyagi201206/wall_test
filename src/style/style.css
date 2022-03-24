@@ -1,0 +1,157 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e8e8e8;
+}
+
+/*menu-section*/
+.menu-section{
+    margin: 2vw 8vw;
+    padding: 2vw 4vw;
+    background-color: white;
+    outline: .15vw solid #b9d6f4;
+    border-radius: .5vw;
+}
+.menu-section ul li{
+    list-style: none;
+}
+.menu-section ul{
+    display: flex;
+    grid-column-gap: 1vw;
+    justify-content: right;
+}
+.menu-section ul li a{
+    font-size: 1.2vw;
+    display: inline-block;
+    text-decoration: none;
+    color: #0971dc;
+}
+
+/*home-page*/
+.response-section{
+    margin: 0vw 8vw;
+    background-color: white;
+    outline: .15vw solid #b9d6f4;
+    border-radius: .5vw;
+    margin-bottom: 4vw;
+}
+.response-section table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.response-section table tr th,
+.response-section table tr td{
+    text-align: left;
+    padding: .5vw 1vw;
+    border: .1vw solid #f7f7f7;
+}
+.response-section table tr th:nth-child(5),
+.response-section table tr td:nth-child(5),
+.response-section table tr th:nth-child(6),
+.response-section table tr td:nth-child(6){
+    text-align: center;
+}
+.response-section table tr td:nth-child(5) button,
+.response-section table tr td:nth-child(6) button{
+    background-color: #0971dc;
+    color: white;
+    padding: .2vw .8vw;
+    border: 0px;
+    border-radius: .25vw;
+}
+
+/*update-employee-section*/
+.update-employee-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 4vw;
+}
+.update-employee-section{
+    background-color: white;
+    outline: .15vw solid #b9d6f4;
+    border-radius: .5vw;
+    padding: 4vw;
+    width: 35%;
+}
+.update-employee-section .title-section h2{
+    color: #0971dc;
+    font-size: 1.5vw;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2vw;
+}
+.update-employee-section .input-button-section{
+    display: grid;
+    grid-row-gap: .5vw;
+}
+.update-employee-section .input-button-section input{
+    outline: .15vw solid #b9d6f4;
+    color: #76808b;
+    width: 100%;
+    padding: .95vw 1vw;
+    font-size: 1.2vw;
+    border: 0px;
+    border-radius: .5vw;
+}
+.update-employee-section .input-button-section button{
+    color: white;
+    border: 0px;
+    width: 100%;
+    background-color: #0971dc;
+    padding: .95vw 1vw;
+    font-size: 1.2vw;
+    border: 0px;
+    border-radius: .5vw;
+}
+
+/*add-employee-section*/
+.add-employee-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw auto;
+    margin-bottom: 4vw;
+}
+.add-employee-section{
+    background-color: white;
+    outline: .15vw solid #b9d6f4;
+    border-radius: .5vw;
+    padding: 4vw;
+    width: 35%;
+}
+.add-employee-section .title-section h2{
+    color: #0971dc;
+    font-size: 1.5vw;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2vw;
+}
+.add-employee-section .input-button-section{
+    display: grid;
+    grid-row-gap: .5vw;
+}
+.add-employee-section .input-button-section input{
+    outline: .15vw solid #b9d6f4;
+    color: #76808b;
+    width: 100%;
+    padding: .95vw 1vw;
+    font-size: 1.2vw;
+    border: 0px;
+    border-radius: .5vw;
+}
+.add-employee-section .input-button-section button{
+    color: white;
+    border: 0px;
+    width: 100%;
+    background-color: #0971dc;
+    padding: .95vw 1vw;
+    font-size: 1.2vw;
+    border: 0px;
+    border-radius: .5vw;
+}
